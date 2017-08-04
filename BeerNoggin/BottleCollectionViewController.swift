@@ -16,6 +16,8 @@ class BottleCollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        collectionView?.backgroundView = UIImageView(image: #imageLiteral(resourceName: "White tile"))
+
         populateBottles()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D321C6661F2FDEFA00CECC97 /* FoodMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D321C6651F2FDEFA00CECC97 /* FoodMenuViewController.swift */; };
+		D321C6681F2FDF3000CECC97 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = D321C6671F2FDF3000CECC97 /* Food.swift */; };
+		D321C66A1F31322F00CECC97 /* FoodAndBeerFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D321C6691F31322F00CECC97 /* FoodAndBeerFinder.swift */; };
+		D3932F0E1F327D600059B6F4 /* BottleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3932F0D1F327D600059B6F4 /* BottleCollectionViewController.swift */; };
+		D3932F101F327D7C0059B6F4 /* Bottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3932F0F1F327D7C0059B6F4 /* Bottle.swift */; };
 		D3B6BCE21F2F5EED00ACF2BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B6BCE11F2F5EED00ACF2BA /* AppDelegate.swift */; };
-		D3B6BCE41F2F5EED00ACF2BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B6BCE31F2F5EED00ACF2BA /* ViewController.swift */; };
+		D3B6BCE41F2F5EED00ACF2BA /* BeerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B6BCE31F2F5EED00ACF2BA /* BeerMenuViewController.swift */; };
 		D3B6BCE71F2F5EED00ACF2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B6BCE51F2F5EED00ACF2BA /* Main.storyboard */; };
 		D3B6BCE91F2F5EEE00ACF2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B6BCE81F2F5EEE00ACF2BA /* Assets.xcassets */; };
 		D3B6BCEC1F2F5EEE00ACF2BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B6BCEA1F2F5EEE00ACF2BA /* LaunchScreen.storyboard */; };
+		D3B6BCF41F2F63A800ACF2BA /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B6BCF31F2F63A800ACF2BA /* Beer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D321C6651F2FDEFA00CECC97 /* FoodMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodMenuViewController.swift; sourceTree = "<group>"; };
+		D321C6671F2FDF3000CECC97 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		D321C6691F31322F00CECC97 /* FoodAndBeerFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodAndBeerFinder.swift; sourceTree = "<group>"; };
+		D3932F0D1F327D600059B6F4 /* BottleCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottleCollectionViewController.swift; sourceTree = "<group>"; };
+		D3932F0F1F327D7C0059B6F4 /* Bottle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bottle.swift; sourceTree = "<group>"; };
 		D3B6BCDE1F2F5EED00ACF2BA /* BeerNoggin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerNoggin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B6BCE11F2F5EED00ACF2BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3B6BCE31F2F5EED00ACF2BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3B6BCE31F2F5EED00ACF2BA /* BeerMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerMenuViewController.swift; sourceTree = "<group>"; };
 		D3B6BCE61F2F5EED00ACF2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3B6BCE81F2F5EEE00ACF2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3B6BCEB1F2F5EEE00ACF2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3B6BCED1F2F5EEE00ACF2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B6BCF31F2F63A800ACF2BA /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				D3B6BCE11F2F5EED00ACF2BA /* AppDelegate.swift */,
-				D3B6BCE31F2F5EED00ACF2BA /* ViewController.swift */,
+				D3B6BCE31F2F5EED00ACF2BA /* BeerMenuViewController.swift */,
+				D321C6651F2FDEFA00CECC97 /* FoodMenuViewController.swift */,
+				D3932F0D1F327D600059B6F4 /* BottleCollectionViewController.swift */,
+				D321C6671F2FDF3000CECC97 /* Food.swift */,
+				D3B6BCF31F2F63A800ACF2BA /* Beer.swift */,
+				D3932F0F1F327D7C0059B6F4 /* Bottle.swift */,
+				D321C6691F31322F00CECC97 /* FoodAndBeerFinder.swift */,
 				D3B6BCE51F2F5EED00ACF2BA /* Main.storyboard */,
 				D3B6BCE81F2F5EEE00ACF2BA /* Assets.xcassets */,
 				D3B6BCEA1F2F5EEE00ACF2BA /* LaunchScreen.storyboard */,
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3B6BCE41F2F5EED00ACF2BA /* ViewController.swift in Sources */,
+				D3B6BCE41F2F5EED00ACF2BA /* BeerMenuViewController.swift in Sources */,
+				D3932F101F327D7C0059B6F4 /* Bottle.swift in Sources */,
+				D3B6BCF41F2F63A800ACF2BA /* Beer.swift in Sources */,
+				D3932F0E1F327D600059B6F4 /* BottleCollectionViewController.swift in Sources */,
+				D321C6681F2FDF3000CECC97 /* Food.swift in Sources */,
 				D3B6BCE21F2F5EED00ACF2BA /* AppDelegate.swift in Sources */,
+				D321C6661F2FDEFA00CECC97 /* FoodMenuViewController.swift in Sources */,
+				D321C66A1F31322F00CECC97 /* FoodAndBeerFinder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +289,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.brianmarx.BeerNoggin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -278,6 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.brianmarx.BeerNoggin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -300,6 +326,7 @@
 				D3B6BCF21F2F5EEE00ACF2BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
