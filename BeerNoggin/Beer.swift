@@ -16,5 +16,4 @@ struct Beer {
     var descriptionOf = ""
     var style = ""
     
-    
 }

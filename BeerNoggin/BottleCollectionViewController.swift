@@ -57,12 +57,12 @@ class BottleCollectionViewController: UICollectionViewController {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
         let beerNameLabel = cell.viewWithTag(19) as! UILabel
         beerNameLabel.text = bottles[indexPath.item].name //Name Label
-        let breweryLabel = cell.viewWithTag(29) as! UILabel
+        let breweryLabel = cell.viewWithTag(39) as! UILabel
         breweryLabel.text = bottles[indexPath.item].brewery  //Brewery label
         let styleLabel = cell.viewWithTag(28) as! UILabel
         styleLabel.text = bottles[indexPath.item].style  //Style Label
-        let alcohol = cell.viewWithTag(39) as! UILabel
-        alcohol.text = String(bottles[indexPath.item].alcohol) // Alcohol Label
+        let alcohol = cell.viewWithTag(29) as! UILabel
+        alcohol.text = "\(bottles[indexPath.item].alcohol)% ABV" // Alcohol Label
         let descriptionLabel = cell.viewWithTag(49) as! UILabel
         descriptionLabel.text = bottles[indexPath.item].descriptionOf //Description Label
     
