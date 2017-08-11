@@ -187,7 +187,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="300" height="150"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OneShelfOfBeer" translatesAutoresizingMaskIntoConstraints="NO" id="HLG-PN-nOk">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ShelfOBeer" translatesAutoresizingMaskIntoConstraints="NO" id="HLG-PN-nOk">
                                             <rect key="frame" x="8" y="0.0" width="292" height="142"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
@@ -195,13 +195,6 @@
                                             <rect key="frame" x="16" y="8" width="119" height="34"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
-                                            <color key="textColor" red="0.99575940444816669" green="1" blue="0.010144676137806785" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alcohol%" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EpO-uj-ebc">
-                                            <rect key="frame" x="145" y="8" width="83" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="15"/>
                                             <color key="textColor" red="0.99575940444816669" green="1" blue="0.010144676137806785" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -226,8 +219,8 @@
                                             <color key="textColor" red="0.99575940444816669" green="1" blue="0.010144676137806785" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" tag="29" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.0" textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uXL-ih-Mb7">
-                                            <rect key="frame" x="247" y="8" width="45" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="29" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.0" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uXL-ih-Mb7">
+                                            <rect key="frame" x="184" y="8" width="108" height="24"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
                                             <color key="textColor" red="0.99575940444816669" green="1" blue="0.010144676137806785" alpha="1" colorSpace="calibratedRGB"/>
@@ -252,7 +245,7 @@
         <scene sceneID="r0M-9c-xbe">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="soG-Jj-33N" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Beer on Tap" image="bw-icon" selectedImage="bw-icon" id="VVR-Do-yEL"/>
+                    <tabBarItem key="tabBarItem" title="Beer on Tap" image="NogginIcon" selectedImage="NogginIcon" id="VVR-Do-yEL"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Q6n-Z0-dUw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -271,7 +264,7 @@
         <scene sceneID="fT3-vl-ed7">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ytE-vj-RM8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Food Menu" id="RRw-8O-ItZ"/>
+                    <tabBarItem key="tabBarItem" title="Food Menu" image="pretzel" selectedImage="pretzel" id="RRw-8O-ItZ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ajy-Bb-adP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -329,7 +322,8 @@
     <resources>
         <image name="BeerBottleIcon" width="25" height="25"/>
         <image name="BlackBoard" width="1284" height="914"/>
-        <image name="OneShelfOfBeer" width="528" height="218"/>
-        <image name="bw-icon" width="25" height="25"/>
+        <image name="NogginIcon" width="25" height="25"/>
+        <image name="ShelfOBeer" width="2086" height="674"/>
+        <image name="pretzel" width="25" height="25"/>
     </resources>
 </document>
