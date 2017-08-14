@@ -55,6 +55,7 @@ class BottleCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
+        
         let beerNameLabel = cell.viewWithTag(19) as! UILabel
         beerNameLabel.text = bottles[indexPath.item].name //Name Label
         let breweryLabel = cell.viewWithTag(39) as! UILabel
