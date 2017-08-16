@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import CoreLocation
 
 let reuseId = "beerId"
-class BeerMenuViewController: UICollectionViewController {
+class BeerMenuViewController: UICollectionViewController, CLLocationManagerDelegate {
 
     var beerList = [Beer]()
     let beer = Beer()
@@ -18,6 +19,8 @@ class BeerMenuViewController: UICollectionViewController {
         super.viewDidLoad()
         collectionView?.backgroundView = UIImageView(image: #imageLiteral(resourceName: "White tile"))
         populateBeerList()
+        let locationManager = CLLocationManager()
+        locationManager.delegate = self
         
         // Do any additional setup after loading the view, typically from a nib.
     }
