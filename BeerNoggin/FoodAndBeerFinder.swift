@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import Alamofire
+import SwiftyJSON
 
 class FoodAndBeerFinder {
     
@@ -16,5 +18,6 @@ class FoodAndBeerFinder {
     func makeCall() {
         let link = "http://www.beernoggin.com/tap-list/"
         let url = URL(string: link)
+        
     }
 }
