@@ -19,9 +19,13 @@
 		D3B6BCEC1F2F5EEE00ACF2BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B6BCEA1F2F5EEE00ACF2BA /* LaunchScreen.storyboard */; };
 		D3B6BCF41F2F63A800ACF2BA /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B6BCF31F2F63A800ACF2BA /* Beer.swift */; };
 		D3C054961F3D1B9900D43BEC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3C054951F3D1B9900D43BEC /* Settings.bundle */; };
+		E538EF7CC9B22CBA3F94BA69 /* Pods_BeerNoggin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7840B51F904852F6E2316B /* Pods_BeerNoggin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07E9503AB049D39307612657 /* Pods-BeerNoggin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerNoggin.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeerNoggin/Pods-BeerNoggin.release.xcconfig"; sourceTree = "<group>"; };
+		565B6C39F7FF9E0EF3F35436 /* Pods-BeerNoggin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerNoggin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeerNoggin/Pods-BeerNoggin.debug.xcconfig"; sourceTree = "<group>"; };
+		9E7840B51F904852F6E2316B /* Pods_BeerNoggin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeerNoggin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D321C6651F2FDEFA00CECC97 /* FoodMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodMenuViewController.swift; sourceTree = "<group>"; };
 		D321C6671F2FDF3000CECC97 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		D321C6691F31322F00CECC97 /* FoodAndBeerFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodAndBeerFinder.swift; sourceTree = "<group>"; };
@@ -43,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E538EF7CC9B22CBA3F94BA69 /* Pods_BeerNoggin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5850F68306EF475D2C1F7512 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				565B6C39F7FF9E0EF3F35436 /* Pods-BeerNoggin.debug.xcconfig */,
+				07E9503AB049D39307612657 /* Pods-BeerNoggin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77689703C43C52F1D9A53295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E7840B51F904852F6E2316B /* Pods_BeerNoggin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D3B6BCD51F2F5EED00ACF2BA = {
 			isa = PBXGroup;
 			children = (
 				D3B6BCE01F2F5EED00ACF2BA /* BeerNoggin */,
 				D3B6BCDF1F2F5EED00ACF2BA /* Products */,
+				5850F68306EF475D2C1F7512 /* Pods */,
+				77689703C43C52F1D9A53295 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3B6BCF01F2F5EEE00ACF2BA /* Build configuration list for PBXNativeTarget "BeerNoggin" */;
 			buildPhases = (
+				3F6E2FD18BD37B18C8C5873F /* [CP] Check Pods Manifest.lock */,
 				D3B6BCDA1F2F5EED00ACF2BA /* Sources */,
 				D3B6BCDB1F2F5EED00ACF2BA /* Frameworks */,
 				D3B6BCDC1F2F5EED00ACF2BA /* Resources */,
+				9EE7557961F2A1E0CDE14F31 /* [CP] Embed Pods Frameworks */,
+				17630E4B83186CF2EBD58EA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -153,6 +180,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17630E4B83186CF2EBD58EA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeerNoggin/Pods-BeerNoggin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F6E2FD18BD37B18C8C5873F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EE7557961F2A1E0CDE14F31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeerNoggin/Pods-BeerNoggin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D3B6BCDA1F2F5EED00ACF2BA /* Sources */ = {
@@ -285,6 +360,7 @@
 		};
 		D3B6BCF11F2F5EEE00ACF2BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565B6C39F7FF9E0EF3F35436 /* Pods-BeerNoggin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FZ4CY87XT2;
@@ -300,6 +376,7 @@
 		};
 		D3B6BCF21F2F5EEE00ACF2BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E9503AB049D39307612657 /* Pods-BeerNoggin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FZ4CY87XT2;
