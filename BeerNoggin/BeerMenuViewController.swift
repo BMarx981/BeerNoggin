@@ -21,7 +21,10 @@ class BeerMenuViewController: UICollectionViewController, CLLocationManagerDeleg
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        collectionView?.backgroundView = UIImageView(image: #imageLiteral(resourceName: "White tile"))
+        let im = UIImageView(image: #imageLiteral(resourceName: "White tile"))
+        im.alpha = 0.5
+        collectionView?.backgroundView = im
+        
         populateBeerList()
         
         locationManager.delegate = self
@@ -50,7 +53,7 @@ class BeerMenuViewController: UICollectionViewController, CLLocationManagerDeleg
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseId, for: indexPath)
         
         let imageView = UIImageView()
-        imageView.image = #imageLiteral(resourceName: "BlackBoard")
+        imageView.image = #imageLiteral(resourceName: "JustBlackBoard")
         cell.contentView.sendSubview(toBack: imageView)
         
         let beerNameLabel = cell.viewWithTag(10) as! UILabel

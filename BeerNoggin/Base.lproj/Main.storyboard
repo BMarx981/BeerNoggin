@@ -43,7 +43,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="300" height="200"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BlackBoard" translatesAutoresizingMaskIntoConstraints="NO" id="S2N-ur-BTg">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JustBlackBoard" translatesAutoresizingMaskIntoConstraints="NO" id="S2N-ur-BTg">
                                             <rect key="frame" x="8" y="8" width="284" height="184"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
@@ -403,7 +403,7 @@
     </scenes>
     <resources>
         <image name="BeerBottleIcon" width="25" height="25"/>
-        <image name="BlackBoard" width="1284" height="914"/>
+        <image name="JustBlackBoard" width="1068" height="692"/>
         <image name="NogginIcon" width="25" height="25"/>
         <image name="ShelfOBeer" width="2086" height="674"/>
         <image name="pretzel" width="25" height="25"/>
