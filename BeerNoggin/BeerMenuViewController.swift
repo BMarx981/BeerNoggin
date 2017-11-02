@@ -21,10 +21,8 @@ class BeerMenuViewController: UICollectionViewController, CLLocationManagerDeleg
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let im = UIImageView(image: #imageLiteral(resourceName: "White tile"))
-        im.alpha = 0.5
-        collectionView?.backgroundView = im
-        
+        collectionView?.backgroundView = UIImageView(image: #imageLiteral(resourceName: "White tile"))
+        collectionView?.backgroundView?.alpha = 0.2
         populateBeerList()
         
         locationManager.delegate = self

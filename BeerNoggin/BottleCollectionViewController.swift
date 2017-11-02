@@ -17,6 +17,7 @@ class BottleCollectionViewController: UICollectionViewController {
         super.viewDidLoad()
 
         collectionView?.backgroundView = UIImageView(image: #imageLiteral(resourceName: "White tile"))
+        collectionView?.backgroundView?.alpha = 0.2
 
         populateBottles()
         // Uncomment the following line to preserve selection between presentations
@@ -33,15 +34,18 @@ class BottleCollectionViewController: UICollectionViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
+    /*
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let bottleDetail = segue.destination as! BottleListDetailViewController
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
     }
     */
+ 
 
     // MARK: UICollectionViewDataSource
 
@@ -86,6 +90,11 @@ class BottleCollectionViewController: UICollectionViewController {
 
     // MARK: UICollectionViewDelegate
 
+    /*
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "BottleSelection", sender: Any?)
+    }
+    */
     /*
     // Uncomment this method to specify if the specified item should be highlighted during tracking
     override func collectionView(_ collectionView: UICollectionView, shouldHighlightItemAt indexPath: IndexPath) -> Bool {

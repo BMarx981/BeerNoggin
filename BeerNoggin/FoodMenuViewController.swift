@@ -15,6 +15,7 @@ class FoodMenuViewController: UITableViewController {
         super.viewDidLoad()
 
         tableView.backgroundView = UIImageView(image: UIImage(named: "White tile"))
+        tableView.backgroundView?.alpha = 0.2
 
         populateFood()
         // Uncomment the following line to preserve selection between presentations
